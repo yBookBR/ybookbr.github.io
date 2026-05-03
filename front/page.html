@@ -1,0 +1,139 @@
+<canvas id="snow"></canvas>
+
+<div class="background"></div>
+<div class="overlay"></div>
+
+<audio id="music" src="./assets/audio/rock my world.mp3" preload="auto" loop></audio>
+<audio id="click-sound" src="./assets/audio/slksng.mp3" preload="auto"></audio>
+
+<main class="layout">
+  <section class="panel about-card reveal">
+    <div class="panel-title">
+      <span class="circle-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#ffffff"><g clip-path="url(#clip0_3111_32736)"><path d="M22 12C22 6.49 17.51 2 12 2C6.49 2 2 6.49 2 12C2 14.9 3.25 17.51 5.23 19.34C5.23 19.35 5.23 19.35 5.22 19.36C5.32 19.46 5.44 19.54 5.54 19.63C5.6 19.68 5.65 19.73 5.71 19.77C5.89 19.92 6.09 20.06 6.28 20.2C6.35 20.25 6.41 20.29 6.48 20.34C6.67 20.47 6.87 20.59 7.08 20.7C7.15 20.74 7.23 20.79 7.3 20.83C7.5 20.94 7.71 21.04 7.93 21.13C8.01 21.17 8.09 21.21 8.17 21.24C8.39 21.33 8.61 21.41 8.83 21.48C8.91 21.51 8.99 21.54 9.07 21.56C9.31 21.63 9.55 21.69 9.79 21.75C9.86 21.77 9.93 21.79 10.01 21.8C10.29 21.86 10.57 21.9 10.86 21.93C10.9 21.93 10.94 21.94 10.98 21.95C11.32 21.98 11.66 22 12 22C12.34 22 12.68 21.98 13.01 21.95C13.05 21.95 13.09 21.94 13.13 21.93C13.42 21.9 13.7 21.86 13.98 21.8C14.05 21.79 14.12 21.76 14.2 21.75C14.44 21.69 14.69 21.64 14.92 21.56C15 21.53 15.08 21.5 15.16 21.48C15.38 21.4 15.61 21.33 15.82 21.24C15.9 21.21 15.98 21.17 16.06 21.13C16.27 21.04 16.48 20.94 16.69 20.83C16.77 20.79 16.84 20.74 16.91 20.7C17.11 20.58 17.31 20.47 17.51 20.34C17.58 20.3 17.64 20.25 17.71 20.2C17.91 20.06 18.1 19.92 18.28 19.77C18.34 19.72 18.39 19.67 18.45 19.63C18.56 19.54 18.67 19.45 18.77 19.36C18.77 19.35 18.77 19.35 18.76 19.34C20.75 17.51 22 14.9 22 12ZM16.94 16.97C14.23 15.15 9.79 15.15 7.06 16.97C6.62 17.26 6.26 17.6 5.96 17.97C4.44 16.43 3.5 14.32 3.5 12C3.5 7.31 7.31 3.5 12 3.5C16.69 3.5 20.5 7.31 20.5 12C20.5 14.32 19.56 16.43 18.04 17.97C17.75 17.6 17.38 17.26 16.94 16.97Z" fill="white" style="fill: var(--fillg);"/><path d="M12 6.92969C9.93 6.92969 8.25 8.60969 8.25 10.6797C8.25 12.7097 9.84 14.3597 11.95 14.4197C11.98 14.4197 12.02 14.4197 12.04 14.4197C12.06 14.4197 12.09 14.4197 12.11 14.4197C12.12 14.4197 12.13 14.4197 12.13 14.4197C14.15 14.3497 15.74 12.7097 15.75 10.6797C15.75 8.60969 14.07 6.92969 12 6.92969Z" fill="white" style="fill: var(--fillg);"/></g><defs><clipPath id="clip0_3111_32736"><rect width="24" height="24" fill="white"/></clipPath></defs></svg>
+      </span>
+      <h2>Sobre Mim</h2>
+    </div>
+
+    <h3>yBook</h3>
+    <p>Meu nome é Thiago. Atuo como desenvolvedor com foco em desenvolvimento web, integrações, bots e automações. Gosto de criar sistemas funcionais, interfaces limpas e ferramentas que solucionem problemas reais de forma eficiente e prática.</p>
+
+    <div class="divider"></div>
+
+    <h4>Languages</h4>
+    <div class="skill-list">
+      <span>JavaScript</span>
+      <span>Lua</span>
+      <span>React</span>
+      <span>HTML</span>
+      <span>CSS</span>
+    </div>
+  </section>
+
+  <section class="center reveal delay-1">
+    <div class="profile">
+      <div class="avatar-wrap">
+        <div class="avatar-mask">
+          <img class="avatar" src="./assets/img/cat.jpg" alt="Avatar">
+        </div>
+        <img class="avatar-decor" src="./assets/img/snowglobe_blue.png" alt="">
+      </div>
+
+      <h1 id="discord-name">yBook</h1>
+      <p class="tagline">fullstack • automation's</p>
+
+      <img class="langs" src="https://skillicons.dev/icons?i=js,lua,react,html,css" alt="Linguagens">
+
+      <nav class="socials">
+        <a href="https://github.com/yBookBR" target="_blank" aria-label="GitHub">
+          <svg viewBox="0 0 16 16" aria-hidden="true">
+            <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+
+        <a href="https://discord.com/users/1054629497904836681" target="_blank" aria-label="Discord">
+          <svg viewBox="0 0 16 16" aria-hidden="true">
+            <path fill="currentColor" d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011C.356 6.024-.213 9.047.066 12.032a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.309-.42.582-.863.818-1.329a9 9 0 0 1-1.248-.595c.084-.064.167-.128.248-.195 2.619 1.196 5.454 1.196 8.041 0 .082.067.164.132.248.195a8 8 0 0 1-1.249.594c.24.465.515.909.817 1.329a13.2 13.2 0 0 0 4.001-2.02c.334-3.451-.559-6.449-2.366-9.106M5.347 10.214c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
+          </svg>
+        </a>
+
+        <a href="https://open.spotify.com/user/31lvmj4535fahtes6ullqwspcdby" target="_blank" aria-label="Spotify">
+          <svg viewBox="0 0 16 16" aria-hidden="true">
+            <path fill="currentColor" d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.669 11.538a.5.5 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686m.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858m.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288"/>
+          </svg>
+        </a>
+
+        <a href="https://steamcommunity.com/id/BookBR/" target="_blank" aria-label="Steam">
+          <svg viewBox="0 0 16 16" aria-hidden="true">
+            <path fill="currentColor" d="M.329 10.333A8.01 8.01 0 0 0 7.99 16C12.414 16 16 12.418 16 8s-3.586-8-8.009-8A8.006 8.006 0 0 0 0 7.468l4.304 1.769A2.2 2.2 0 0 1 5.62 8.88l1.96-2.844a3.046 3.046 0 1 1 3.042 3.004l-2.804 2a2.223 2.223 0 0 1-3.145 2.11 2.22 2.22 0 0 1-1.312-1.568z"/>
+          </svg>
+        </a>
+      </nav>
+    </div>
+
+    <section class="music-card">
+      <div class="music-cover">
+        <img src="./assets/img/albumcover.png" alt="Capa do álbum">
+      </div>
+
+      <div class="music-main">
+        <div class="music-header">
+          <h3>rock my world</h3>
+          <p>plaxz</p>
+        </div>
+
+        <span id="music-message" class="music-message">toque em qualquer lugar para iniciar a música</span>
+
+        <div class="timeline-row">
+          <span id="current-time">0:00</span>
+          <div class="timeline" id="timeline">
+            <div id="progress"></div>
+          </div>
+          <span id="duration-time">0:00</span>
+        </div>
+
+        <div class="player-controls">
+          <button id="prev-btn" class="control-btn" type="button" aria-label="Voltar 5 segundos"></button>
+          <button id="play-btn" class="play-btn" type="button" aria-label="Reproduzir música"></button>
+          <button id="next-btn" class="control-btn" type="button" aria-label="Avançar 5 segundos"></button>
+        </div>
+      </div>
+
+      <div class="music-volume">
+        <button id="volume-btn" class="volume-btn" type="button" aria-label="Alternar volume"></button>
+        <input id="volume-slider" class="volume-slider" type="range" min="0" max="1" step="0.01" value="1" aria-label="Volume">
+      </div>
+    </section>
+  </section>
+
+  <section class="panel activity-card reveal delay-2">
+    <div class="panel-title">
+      <span class="circle-icon">▣</span>
+      <h2>Atividade</h2>
+    </div>
+
+    <div class="discord-box">
+      <p>Carregando Discord...</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <h4>Experiências</h4>
+    <div class="experience-list">
+      <div>
+        <strong>Automation</strong>
+        <span>Bots, scripts e integrações</span>
+      </div>
+
+      <div>
+        <strong>Web Dev</strong>
+        <span>Sites, dashboards e interfaces</span>
+      </div>
+
+      <div>
+        <strong>Cheats</strong>
+        <span>Criação de exploits para o roblox</span>
+      </div>
+    </div>
+  </section>
+</main>
