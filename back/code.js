@@ -7,7 +7,7 @@ fetch("./front/page.html")
 
     const DISCORD_ID = "1054629497904836681"
     const SNOW_COUNT = 140
-    const DISCORD_REFRESH_MS = 10000
+    const DISCORD_REFRESH_MS = 1000
     const SKIP_SECONDS = 5
 
     const icons = {
@@ -269,7 +269,7 @@ fetch("./front/page.html")
           const statusIcon = statusIcons[d.discord_status] || statusIcons.offline
 
           let activityName = "Sem atividade"
-          let activitySub = "Disponível para networking"
+          let activitySub = "..."
           let activityIcon = ""
 
           if (d.listening_to_spotify) {
